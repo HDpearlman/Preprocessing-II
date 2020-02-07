@@ -292,9 +292,13 @@ nav a:hover {
   .home .content-pick .destination {
     width: 100%;
   }
+  .home .content-pick .btn {
+    display: flex;
+    margin: auto;
+  }
 }
 @media (max-width:500px) {
-  .home .content-pick {
+  .home {
     width: 90%;
   }
 }
