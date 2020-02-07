@@ -173,13 +173,19 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-nav {
+.desktopWidth {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1%;
   max-width: 800px;
   width: 100%;
   margin: auto;
-  align-items: center;
-  justify-content: space-between;
+}
+nav {
+  widows: 100%;
+  border-bottom: 2px dashed #c0c0c0;
+  margin-bottom: 1%;
 }
 nav H1 {
   padding: 3rem;
@@ -224,7 +230,7 @@ nav a:hover {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -243,7 +249,7 @@ nav a:hover {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  border-top: 2px dashed #c0c0c0;
   display: flex;
   justify-content: space-between;
 }
@@ -255,6 +261,7 @@ nav a:hover {
   max-width: 800px;
   width: 100%;
   margin: auto;
+  border-bottom: 2px dashed #c0c0c0;
 }
 .welcomeMessage h2 {
   padding-top: 1.6rem;
