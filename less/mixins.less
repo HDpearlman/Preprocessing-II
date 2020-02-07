@@ -5,3 +5,23 @@
     width:100%;
     margin:auto;
 }
+
+.button(@color){
+    display:flex;
+    width:50%;
+    padding:1%;
+    background-color: @color;
+    border-radius:1rem;
+    justify-content: center;
+    &:hover{
+        background-color: lighten(@color, 20%);
+    }
+    a{
+        padding:2%;
+        margin:auto;
+        font-size:1.5em;
+        text-decoration: none;
+        color:lighten(@color,88%);
+    }
+}
+

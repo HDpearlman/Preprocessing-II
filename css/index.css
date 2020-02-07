@@ -266,3 +266,21 @@ nav a:hover {
 .welcomeMessage h2 {
   padding-top: 1.6rem;
 }
+.btn {
+  display: flex;
+  width: 50%;
+  padding: 1%;
+  background-color: #17A2B8;
+  border-radius: 1rem;
+  justify-content: center;
+}
+.btn:hover {
+  background-color: #4cd3e9;
+}
+.btn a {
+  padding: 2%;
+  margin: auto;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #ffffff;
+}
